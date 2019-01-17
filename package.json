@@ -1,0 +1,21 @@
+{
+  "name": "restfulblogapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node-dev server.js"
+  },
+  "author": "Amiri Houssem",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "errorhandler": "1.5.0",
+    "express": "4.16.4",
+    "morgan": "1.9.1"
+  },
+  "devDependencies": {
+    "node-dev": "3.1.3"
+  }
+}
